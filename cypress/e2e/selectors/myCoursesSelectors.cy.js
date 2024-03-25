@@ -1,0 +1,19 @@
+module.exports= {
+    icon:'[alt="empty-state"]',
+    emptyCoursesMessageone:'[class="text-lg font-bold text-mgray-700"]', //أنت غير مشترك في أي دورة حالياً
+    emptyCoursesMessage:'//*[@id="rc-tabs-0-panel-my-courses"]/div/div/div/p',//يمكنك تصفح الدورات والالتحاق بالدورة التي تود الاشتراك بها
+    viewAllCoursesButton:'[class="ant-btn ant-btn-primary ant-btn-rtl main-btn !w-48 self-end !rounded-lg"]',
+    course:'[class="flex h-full w-full flex-col items-center justify-between gap-6 rounded-xl bg-white px-2 pt-2 pb-4 shadow-[rgba(0,_0,_0,_0.25)_0px_1px_4px] hover:shadow-[rgba(0,_0,_0,_0.25)_0px_1px_8px]"]',
+    allcoursespage:'[class="jsx-3919222039  text-3xl font-medium text-white "]',//الدورات التعليمية
+    enrolledCourses:'[id="my-courses-list"]',
+    contunielearning:'[class="ant-btn ant-btn-primary ant-btn-rtl main-btn hover:border-transparent hover:bg-quaternary !mt-0 !h-10 !w-full !rounded-lg"]',
+    compeletelesson:'[class="ant-btn ant-btn-primary ant-btn-rtl flex items-center justify-center gap-3 rounded-[70px] !border-[#00B998] !bg-[#00B998] px-10 py-5 font-bold text-[#F8FCFD]"]',
+    certificatePopUpIcon:'[alt="course-done-award"]',
+    certificatePopUp:'[class="flex flex-col items-center justify-center gap-4"]',//مبارك اتمامك الدورة!
+    certificateMessage:'[class="font-medium"]',//لقد قمت بإنهاء الدورة بنجاح ... نشكرك على مثابرتك واجتهادك
+    viewcCertificateButton:'[class="ant-btn ant-btn-primary ant-btn-rtl secondary-btn !w-fit !border-secondary-300 !bg-secondary-300 px-4 !text-primary"]',
+    newtapcertificate:'[class="flex h-[85%] w-full flex-col items-center justify-center"]',
+    copyCertificateLink:'[class="ant-btn ant-btn-primary ant-btn-rtl main-btn !m-0 !w-fit px-4 text-center"]',
+    tostCopyLink:'[class="Toastify__toast Toastify__toast-theme--light Toastify__toast--success Toastify__toast--rtl"]',
+    closeIcon:'[data-icon="close"]'
+}
